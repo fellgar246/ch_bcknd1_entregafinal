@@ -1,7 +1,6 @@
 import express from 'express';
 import morgan from 'morgan';
 import handlebars from 'express-handlebars';
-import mongoose from 'mongoose';
 import { Server } from 'socket.io';
 
 import productsRouter from './routes/products.routes.js';
